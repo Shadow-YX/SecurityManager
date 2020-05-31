@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="主控制界面">
+      <UniqueIdentifier>{9ddd8e97-da66-4090-855f-2bc68669d071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="窗口显示">
+      <UniqueIdentifier>{0d404b22-7298-4912-9dbb-b881e67d0933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="进程管理">
+      <UniqueIdentifier>{f37d663c-189b-448e-8ab6-63c6e04641c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="md5转换">
+      <UniqueIdentifier>{53e21966-a2de-41b1-8418-10e289459287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="垃圾清理">
+      <UniqueIdentifier>{524581d7-bf10-4200-843a-46fcfc95c00e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="开机启动项管理">
+      <UniqueIdentifier>{1b94c7f1-acd2-439e-8b38-aa146194676c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卸载管理">
+      <UniqueIdentifier>{8a35504f-ffed-40f4-917f-22c9be130323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="病毒/进程扫描">
+      <UniqueIdentifier>{71bb6f95-0fd3-46fc-9f71-7c4d32cf2259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="重写mfc">
+      <UniqueIdentifier>{25fce47f-aa41-4d50-b898-1c170f99a0e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyHead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClistCtrlEx.h">
+      <Filter>重写mfc</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5_FILE.h">
+      <Filter>md5转换</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadVirusLib.h">
+      <Filter>病毒/进程扫描</Filter>
+    </ClInclude>
+    <ClInclude Include="MyAntiVirusDlg.h">
+      <Filter>病毒/进程扫描</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMoudleDlg.h">
+      <Filter>进程管理</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTask.h">
+      <Filter>主控制界面</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTaskDlg.h">
+      <Filter>主控制界面</Filter>
+    </ClInclude>
+    <ClInclude Include="MyWindowsDlg.h">
+      <Filter>窗口显示</Filter>
+    </ClInclude>
+    <ClInclude Include="MyUnistallDlg.h">
+      <Filter>卸载管理</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusBarEx.h">
+      <Filter>重写mfc</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClearUpDlg.h">
+      <Filter>垃圾清理</Filter>
+    </ClInclude>
+    <ClInclude Include="MyProcessLibDlg.h">
+      <Filter>病毒/进程扫描</Filter>
+    </ClInclude>
+    <ClInclude Include="MyStartupDlg.h">
+      <Filter>开机启动项管理</Filter>
+    </ClInclude>
+    <ClInclude Include="MySingleFileDlg.h">
+      <Filter>进程管理</Filter>
+    </ClInclude>
+    <ClInclude Include="MyThreadDlg.h">
+      <Filter>进程管理</Filter>
+    </ClInclude>
+    <ClInclude Include="MyVirusLibDlg.h">
+      <Filter>病毒/进程扫描</Filter>
+    </ClInclude>
+    <ClInclude Include="CAddVirus.h">
+      <Filter>病毒/进程扫描</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClistCtrlEx.cpp">
+      <Filter>重写mfc</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5_FILE.cpp">
+      <Filter>md5转换</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadVirusLib.cpp">
+      <Filter>病毒/进程扫描</Filter>
+    </ClCompile>
+    <ClCompile Include="MyAntiVirusDlg.cpp">
+      <Filter>病毒/进程扫描</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMoudleDlg.cpp">
+      <Filter>进程管理</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTaskDlg.cpp">
+      <Filter>主控制界面</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTask.cpp">
+      <Filter>主控制界面</Filter>
+    </ClCompile>
+    <ClCompile Include="MyWindowsDlg.cpp">
+      <Filter>窗口显示</Filter>
+    </ClCompile>
+    <ClCompile Include="MyUnistallDlg.cpp">
+      <Filter>卸载管理</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusBarEx.cpp">
+      <Filter>重写mfc</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClearUpDlg.cpp">
+      <Filter>垃圾清理</Filter>
+    </ClCompile>
+    <ClCompile Include="MyProcessLibDlg.cpp">
+      <Filter>病毒/进程扫描</Filter>
+    </ClCompile>
+    <ClCompile Include="MyStartupDlg.cpp">
+      <Filter>开机启动项管理</Filter>
+    </ClCompile>
+    <ClCompile Include="MySingleFileDlg.cpp">
+      <Filter>进程管理</Filter>
+    </ClCompile>
+    <ClCompile Include="MyThreadDlg.cpp">
+      <Filter>进程管理</Filter>
+    </ClCompile>
+    <ClCompile Include="MyVirusLibDlg.cpp">
+      <Filter>病毒/进程扫描</Filter>
+    </ClCompile>
+    <ClCompile Include="CAddVirus.cpp">
+      <Filter>病毒/进程扫描</Filter>
+    </ClCompile>
+    <ClCompile Include="MyHead.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MyTask.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MyTask.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MyTask.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\项目48.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\FiresShark.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\MyTask1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

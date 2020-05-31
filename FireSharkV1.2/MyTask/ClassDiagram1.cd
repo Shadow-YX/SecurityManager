@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MyUnistallDlg" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="3.75" />
+    <NestedTypes>
+      <Enum Name="MyUnistallDlg::__unnamed_enum_001e_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MyUnistallDlg.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CAAAAEHAAAAAAAAAIBAAAAAAAAEABEAAAAAAAAACAAA=</HashCode>
+      <FileName>MyUnistallDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyStartupDlg">
+    <Position X="0.5" Y="0.5" Width="3.75" />
+    <NestedTypes>
+      <Enum Name="MyStartupDlg::__unnamed_enum_0016_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MyStartupDlg.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAIAGCAAAAAAAAABAAQAEAiAAAAAAABAAAAABAAAA=</HashCode>
+      <FileName>MyStartupDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
