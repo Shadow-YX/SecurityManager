@@ -1,0 +1,4 @@
+建议使用VS2019 X86 Debug版编译，如报错请关闭SDL选项。
+若 报错cannot open include file 'targetver.h'. 请删除掉 #include "targetver.h" 这行代码
+
+病毒和进程白名单功能需要将测试库文件ProcessLib.dat，VirusLib.dat放到编译后产生的可执行文件路径下。
